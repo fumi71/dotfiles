@@ -1,7 +1,23 @@
+"""""""""""""""""""""""""""""""
+" プラグインのセットアップ
+"""""""""""""""""""""""""""""""
+call plug#begin('~/.vim/plugged')
+
+"ファイルオープンを便利に
+Plug 'Shougo/unite.vim'
+" Unite.vimで最近使ったファイルを表示できるようにする
+Plug 'Shougo/neomru.vim'
+
+call plug#end()
+
+
+"""""""""""""""""""""""""""""""
+" 各種オプションの設定
+"""""""""""""""""""""""""""""""
 " タブ文字の表示幅
 set tabstop=2
 " Vimが挿入するインデントの幅
-set shiftwidth=4
+set shiftwidth=2
 " スワップファイルは使わない
 set noswapfile
 " カーソルが何行目の何列目に置かれているかを表示する
