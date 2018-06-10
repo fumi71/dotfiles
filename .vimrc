@@ -13,7 +13,7 @@ set hlsearch
 " 暗い背景色合わせた配色にする
 set background=dark
 "タブ入力を複数の空白入力に置き換える
-set expandtab
+"set expandtab
 " 検索ワードの最初の文字を入力した時点で検索を開始する
 set incsearch
 " 不可視文字を表示する
